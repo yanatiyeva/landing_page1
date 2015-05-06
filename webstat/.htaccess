@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/landing.galleyasmyts.bitte18.in.ua/webstat"
+AuthUserFile /hosting/b18150514/data/etc/180619562.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
